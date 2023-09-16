@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;700;800&family=Raleway:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Great Vibes", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.main {
+  background-image: url("./iso-republic-beach-day-coast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 400px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+  background: #8ddfcb;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#pass-box {
+  width: 100%;
+  display: block;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+label {
+  user-select: none;
+}
+
+#btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#btn:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.footer {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#total-char {
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
